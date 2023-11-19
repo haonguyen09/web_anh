@@ -1,0 +1,123 @@
+2023-11-17T03:16:19+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php:47
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php(39): WP2023_DB::create_tables()
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#2 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#5 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#6 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php on line 47
+
+2023-11-17T03:27:56+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php:46
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php(39): WP2023_DB::create_tables()
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#2 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#5 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#6 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php on line 46
+
+2023-11-17T03:28:11+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php:46
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php(39): WP2023_DB::create_tables()
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#2 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#5 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#6 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php on line 46
+
+2023-11-17T03:29:57+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:82
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 82
+
+2023-11-17T03:37:51+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-17T03:38:07+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-17T03:39:19+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-17T03:39:35+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-17T03:54:01+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-17T03:54:18+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-17T04:01:37+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-17T04:04:02+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
