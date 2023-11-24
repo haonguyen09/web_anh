@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hoanghamobile</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Thu, 09 Nov 2023 08:39:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/11/cropped-logo-text-1-32x32.png</url>
+	<title>hoanghamobile</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Exam season offers &#8211; Exciting promotions: Up to 350,000 VND off for all Windows Laptops and Monitors products</title>
+		<link>/exam-season-offers-exciting-promotions-up-to-350000-vnd-off-for-all-windows-laptops-and-monitors-products/</link>
+					<comments>/exam-season-offers-exciting-promotions-up-to-350000-vnd-off-for-all-windows-laptops-and-monitors-products/#respond</comments>
+		
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<pubDate>Thu, 09 Nov 2023 08:31:55 +0000</pubDate>
+				<category><![CDATA[Phone]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=65</guid>
+
+					<description><![CDATA[When purchasing directly at Hoang Ha Mobile branches, customers will receive additional discounts...]]></description>
+										<content:encoded><![CDATA[<h2><b>Applicable subjects</b></h2>
+<p>Applies to pupils, students and teachers</p>
+<p>Each phone number or ID card/citizen identification card can only participate in purchasing a maximum of 02 products.</p>
+<p>&nbsp;</p>
+<p><img decoding="async" class="alignnone size-medium wp-image-66" src="/wp-content/uploads/2023/11/post1mb-300x125.png" alt="" width="300" height="125" srcset="/wp-content/uploads/2023/11/post1mb-300x125.png 300w, /wp-content/uploads/2023/11/post1mb-600x249.png 600w, /wp-content/uploads/2023/11/post1mb.png 640w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<h2><b>Instructions for receiving incentives</b></h2>
+<p>Customers bring valid documents to Hoang Ha Mobile&#8217;s systems or send them via Zalo, Facebook, Gmail&#8230; to the shops. Required documents include:</p>
+<p>– ID card/CCCD</p>
+<p>– For students: Customers bring one of the following documents: Student card, Admission notice, Tuition payment form, transcript&#8230; Documents related to the national high school exam such as: Card exam, high school diploma, score report, admission notice, admission notice&#8230;</p>
+<p>– For teachers:: Teacher card, lecturer card, certificate of being a teacher or lecturer</p>
+<p><em>Note: Students who do not have ID card can use a document such as student card, transcript, student certificate&#8230; (no need for citizen identification)</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/exam-season-offers-exciting-promotions-up-to-350000-vnd-off-for-all-windows-laptops-and-monitors-products/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hello world!</title>
+		<link>/hello-world/</link>
+					<comments>/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<pubDate>Wed, 08 Nov 2023 19:12:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=1</guid>
+
+					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+										<content:encoded><![CDATA[
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

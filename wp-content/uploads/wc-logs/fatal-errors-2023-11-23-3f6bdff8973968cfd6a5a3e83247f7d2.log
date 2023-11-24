@@ -1,0 +1,60 @@
+2023-11-23T04:28:08+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 1024
+
+2023-11-23T04:30:09+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 1024
+
+2023-11-23T04:32:10+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 1024
+
+2023-11-23T04:32:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_add_to_cart_action" not found or invalid function name in C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1286): do_action('woocommerce_add...', '2a38a4a9316c49e...', 88, 1, 0, Array, Array)
+#3 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(834): WC_Cart->add_to_cart(88, 1)
+#4 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(806): WC_Form_Handler::add_to_cart_handler_simple(88)
+#5 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): WC_Form_Handler::add_to_cart_action('')
+#6 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\hoanghamobile\wp-settings.php(665): do_action('wp_loaded')
+#9 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php on line 324
+
+2023-11-23T05:35:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_add_to_cart_action" not found or invalid function name in C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1286): do_action('woocommerce_add...', '2a38a4a9316c49e...', 88, 1, 0, Array, Array)
+#3 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(834): WC_Cart->add_to_cart(88, 1)
+#4 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(806): WC_Form_Handler::add_to_cart_handler_simple(88)
+#5 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): WC_Form_Handler::add_to_cart_action('')
+#6 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\hoanghamobile\wp-settings.php(665): do_action('wp_loaded')
+#9 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php on line 324
+
+2023-11-23T05:46:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_add_to_cart_action" not found or invalid function name in C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1286): do_action('woocommerce_add...', '2a38a4a9316c49e...', 88, 1, 0, Array, Array)
+#3 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(834): WC_Cart->add_to_cart(88, 1)
+#4 C:\laragon\www\hoanghamobile\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(806): WC_Form_Handler::add_to_cart_handler_simple(88)
+#5 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): WC_Form_Handler::add_to_cart_action('')
+#6 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\hoanghamobile\wp-settings.php(665): do_action('wp_loaded')
+#9 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php on line 324
+

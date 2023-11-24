@@ -1,0 +1,272 @@
+2023-11-22T05:09:05+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:81
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 81
+
+2023-11-22T05:10:49+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php:47
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php(81): WP2023_DB::create_tables()
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#2 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#5 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#6 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\includes\Database\WpDatabase.php on line 47
+
+2023-11-22T05:14:30+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:83
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 83
+
+2023-11-22T05:21:37+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:83
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 83
+
+2023-11-22T05:31:56+00:00 CRITICAL Uncaught Error: Call to undefined function dbDelta() in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php:79
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_ecommerce_activation(false)
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\includes\plugin.php(693): do_action('activate_wp-eco...', false)
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(58): activate_plugin('wp-ecommerce/wp...', 'http://hoangham...', false)
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\plugins\wp-ecommerce\wp-ecommerce.php on line 79
+
+2023-11-22T05:42:03+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T05:42:18+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T05:42:32+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T05:42:37+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T06:15:46+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:15:58+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:17:40+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\wp-admin\plugins.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:17:47+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:17:55+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\wp-admin\index.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:17:59+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:20:55+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\wp-admin\index.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T06:21:00+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T06:21:35+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\wp-admin\index.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:21:40+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:564
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 564
+
+2023-11-22T06:23:23+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\wp-admin\index.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T06:23:28+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:565
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-settings.php(611): include()
+#1 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 565
+
+2023-11-22T06:34:59+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:568
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_init('')
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-settings.php(643): do_action('init')
+#4 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\hoanghamobile\wp-admin\index.php(10): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 568
+
+2023-11-22T06:35:07+00:00 CRITICAL Uncaught Error: Undefined constant "WP2023_PATH" in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:568
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_init('')
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-settings.php(643): do_action('init')
+#4 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 568
+
+2023-11-22T06:37:01+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:570
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_init('')
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-settings.php(643): do_action('init')
+#4 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\hoanghamobile\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\hoanghamobile\wp-admin\index.php(10): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 570
+
+2023-11-22T06:37:08+00:00 CRITICAL Uncaught Error: Class "WP2023_DB" not found in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:570
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_init('')
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-settings.php(643): do_action('init')
+#4 C:\laragon\www\hoanghamobile\wp-config.php(103): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\hoanghamobile\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\hoanghamobile\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\hoanghamobile\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 570
+
+2023-11-22T09:03:30+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php:553
+Stack trace:
+#0 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(324): wp2023_save_full_name('')
+#1 C:\laragon\www\hoanghamobile\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\hoanghamobile\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\hoanghamobile\wp-admin\admin-ajax.php(188): do_action('wp_ajax_save_fu...')
+#4 {main}
+  thrown in C:\laragon\www\hoanghamobile\wp-content\themes\orchid-store\functions.php on line 553
+
